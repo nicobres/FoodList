@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/food_item_thumbnail"
+        android:layout_width="@dimen/food_list_thumbnail_size"
+        android:layout_height="@dimen/food_list_thumbnail_size"
+        android:adjustViewBounds="true"
+        android:src="@drawable/chicken" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/food_item_label"
+            android:textSize="@dimen/title_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Label"/>
+
+        <TextView
+            android:id="@+id/food_item_price"
+            android:textSize="@dimen/descpription_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 euros"/>
+
+    </LinearLayout>
+
+</LinearLayout>
