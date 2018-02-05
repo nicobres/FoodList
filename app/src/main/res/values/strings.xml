@@ -1,4 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="app_name">FoodList</string>
-    <string name="key_test">Hello</string>
+  <string name="app_name">FoodList</string>
+  <string name="key_test">Hello</string>
 </resources>
