@@ -1,0 +1,17 @@
+phraseapp:
+  access_token: e710745990950a486ab10d712b589864a01850711742976a52073a65c5a7a4bd
+  project_id: ca210ed636987c79981e9a3d25c0526d
+  file_format: xml
+  pull:
+    targets:
+    - file: ./app/src/main/res/values/strings.xml
+      params:
+        file_format: xml
+        # Unique locale id for English
+        locale_id: c0c5c49539041f2b8399aa34e8e1d18a
+  push:
+    sources:
+    - file: ./app/src/main/res/values/strings.xml
+      params:
+        file_format: xml
+        locale_id: c0c5c49539041f2b8399aa34e8e1d18a
