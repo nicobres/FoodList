@@ -3,4 +3,5 @@
   <string name="hello_world">Hello World!</string>
   <string name="key_test">change</string>
     <string name="finish">finish</string>
+    <string name="other_string">Other string</string>
 </resources>
